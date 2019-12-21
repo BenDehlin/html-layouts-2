@@ -1,0 +1,87 @@
+* {
+  margin: 1vw;
+  padding: 0;
+}
+body {
+  background-color: white;
+}
+.boxes{
+  width: 28vw;
+  height: 12vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  float: left;
+}
+
+#red{
+  background-color: red;
+}
+#blue{
+  background-color: blue;
+}
+#black{
+  background-color: black;
+}
+
+
+.main-text{
+  width: 90vw;
+  height: 30vh;
+  clear: both;
+  text-align: justify;
+  overflow-x: scroll;
+  padding: 1vh 0vw;
+}
+
+
+.left-side{
+  background-color: red;
+  height: 25vh;
+  width: 30vw;
+  float: left;
+  margin: 0;
+  margin-bottom: 5vh;
+}
+
+.right-side{
+  background-color: blue;
+  height: 25vh;
+  width: 60vw;
+  float: left;
+  margin: 0;
+  margin-bottom: 1vh;
+}
+
+.left-footer{
+  background-color: blue;
+  height: 10vh;
+  width: 60vw;
+  clear: both;
+  margin: 0;
+  float: left;
+}
+
+.red-bar-one{
+  background-color: red;
+  height:10vh;
+  width: 5vw;
+  margin: 0;
+  float: left;
+}
+
+.black-box-footer{
+  background-color: black;
+  height:10vh;
+  width: 20vw;
+  margin: 0;
+  float: left;
+}
+
+.red-bar-two{
+  background-color: red;
+  height:10vh;
+  width: 5vw;
+  margin: 0;
+  float: left;
+}
