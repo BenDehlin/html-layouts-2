@@ -4,6 +4,10 @@
 }
 
 body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: gainsboro;
 }
 
@@ -15,45 +19,66 @@ body{
 }
 
 #top-section{
-  margin-top: 5vh;
-  height: 20vh;
+  margin: 5vh;
+  height: 25vh;
   padding: 2vh, 2vw;
-}
+  background-color: white;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 #text-box{
   text-align: justify;
-  margin-bottom: 5vh;
   overflow-x: scroll;
-  padding: 2vh, 2vw;
+  margin: 2vw;
+}
 
+.buttons-row{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
 }
 
 .buttons{
   font-size: xx-large;
   color: white;
   text-align: center;
-  height: 4vh;
+  height: 6vh;
   width: 16vw;
-  float: left;
   margin-left: 2vw;
 }
 
 #red-button{
   background-color: red;
-  left: 5vw;
+  order: 0;
 }
 
 #blue-button{
   background-color: blue;
-  left: 10vw;
-}
-
-#center-section{
-  background-color: gainsboro;
-  height: 5vh;
+  order: 1;
 }
 
 #bottom-section{
-  background-color: black;
+  background-color: white;
   height: 60vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh;
+}
+
+.image{
+  background-color: black;
+  height: 35vh;
+  margin: 2vh;
+  display: flex;
+  font-size: xx-large;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-text-box{
+  margin: 2vh;
 }

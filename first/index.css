@@ -7,10 +7,10 @@ body {
 }
 .boxes{
   width: 28vw;
-  height: 12vh;
+  height: 15vh;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   float: left;
 }
 
